@@ -1,6 +1,7 @@
+let num = 0
 
-function takeANumber(line, name) {
-  return `Welcome, ${name}. You are number ${line.push(name)} in line.`;
+function takeANumber(line) {
+  return line.push(++num);
 }
 
 function nowServing(line) {
